@@ -7,20 +7,20 @@
 		"nbformat": 4,
 		"nbformat_minor": 2,
 		"bigDataPool": {
-			"referenceName": "healthcare",
+			"referenceName": "spkpoolsyne2ebc",
 			"type": "BigDataPoolReference"
 		},
 		"sessionProperties": {
-			"driverMemory": "112g",
-			"driverCores": 16,
-			"executorMemory": "112g",
-			"executorCores": 16,
-			"numExecutors": 4,
+			"driverMemory": "56g",
+			"driverCores": 8,
+			"executorMemory": "56g",
+			"executorCores": 8,
+			"numExecutors": 2,
 			"conf": {
 				"spark.dynamicAllocation.enabled": "false",
-				"spark.dynamicAllocation.minExecutors": "4",
-				"spark.dynamicAllocation.maxExecutors": "4",
-				"spark.autotune.trackingId": "0ff2572c-9472-4bb0-980c-22f1e1f08db5"
+				"spark.dynamicAllocation.minExecutors": "2",
+				"spark.dynamicAllocation.maxExecutors": "2",
+				"spark.autotune.trackingId": "c2120f25-9278-46d1-aefe-82b9cf1adef8"
 			}
 		},
 		"metadata": {
@@ -34,18 +34,18 @@
 				"name": "python"
 			},
 			"a365ComputeOptions": {
-				"id": "/subscriptions/7e416de3-c506-4776-8270-83fd73c6cc37/resourceGroups/syne2e/providers/Microsoft.Synapse/workspaces/health/bigDataPools/healthcare",
-				"name": "healthcare",
+				"id": "/subscriptions/2f780f93-6fbf-4e13-8f06-b3828f8fcf55/resourceGroups/azSynE2E_BC/providers/Microsoft.Synapse/workspaces/wkspsyne2ebc/bigDataPools/spkpoolsyne2ebc",
+				"name": "spkpoolsyne2ebc",
 				"type": "Spark",
-				"endpoint": "https://health.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/healthcare",
+				"endpoint": "https://wkspsyne2ebc.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/spkpoolsyne2ebc",
 				"auth": {
 					"type": "AAD",
 					"authResource": "https://dev.azuresynapse.net"
 				},
 				"sparkVersion": "3.1",
-				"nodeCount": 3,
-				"cores": 16,
-				"memory": 112,
+				"nodeCount": 5,
+				"cores": 8,
+				"memory": 56,
 				"automaticScaleJobs": false
 			},
 			"sessionKeepAliveTimeout": 30
