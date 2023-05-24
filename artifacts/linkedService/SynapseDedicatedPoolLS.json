@@ -4,11 +4,11 @@
 		"parameters": {
 			"DatabaseName": {
 				"type": "string",
-				"defaultValue": "healthcare"
+				"defaultValue": "sqlpoolsyne2ebc"
 			},
 			"ServerName": {
 				"type": "string",
-				"defaultValue": "health"
+				"defaultValue": "wkspsyne2ebc"
 			}
 		},
 		"annotations": [],
