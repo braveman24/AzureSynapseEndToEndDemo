@@ -472,19 +472,19 @@
 		"parameters": {
 			"StorageName": {
 				"type": "string",
-				"defaultValue": "synapsee2elake"
+				"defaultValue": "stgsyne2ebc"
 			},
 			"DatabaseName": {
 				"type": "string",
-				"defaultValue": "synapsee2edw"
+				"defaultValue": "sqlpoolsyne2ebc"
 			},
 			"ServerName": {
 				"type": "string",
-				"defaultValue": "synapsee2e"
+				"defaultValue": "wkspsyne2ebc"
 			},
 			"SparkPoolName": {
 				"type": "string",
-				"defaultValue": "synapsee2espark"
+				"defaultValue": "spkpoolsyne2ebc"
 			},
 			"DatasetSize": {
 				"type": "string",
