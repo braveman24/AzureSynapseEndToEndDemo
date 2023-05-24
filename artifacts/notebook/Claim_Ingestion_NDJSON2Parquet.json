@@ -20,7 +20,7 @@
 				"spark.dynamicAllocation.enabled": "false",
 				"spark.dynamicAllocation.minExecutors": "2",
 				"spark.dynamicAllocation.maxExecutors": "2",
-				"spark.autotune.trackingId": "d32f1fc6-6157-4e43-b4c4-8e59135e484b"
+				"spark.autotune.trackingId": "01d449d0-2365-44d5-9253-6465e162054a"
 			}
 		},
 		"metadata": {
@@ -59,7 +59,7 @@
 					]
 				},
 				"source": [
-					"StorageName = \"medicaldl\"\r\n",
+					"StorageName = \"stgsyne2ebc\"\r\n",
 					"DatasetSize = \"1tb\""
 				],
 				"execution_count": null
