@@ -1,0 +1,24 @@
+{
+	"name": "Trigger_y8v",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "MetadataDrivenCopyTask_y8v_TopLevel",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 24,
+				"startTime": "2023-05-29T15:46:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
